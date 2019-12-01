@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<html>
+<head>
+	<title>Generate</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css') }}">
+	<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+	<meta name="viewport" content="width=device-width", initial-scale=1.0>
+</head>
+<body>
+	<div class="top">
+		<div class="content">
+			<h1>secure pass</h1>
+			<h3>{{ x }}</h3>
+			<a href="{{url_for('index')}}">Generate</a>
+		</div>
+	</div>
+</body>
+
